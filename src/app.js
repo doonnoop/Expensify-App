@@ -5,9 +5,6 @@ import "normalize.css/normalize.css";
 import "./styles/style.scss";
 import AppRouter from "./routers/AppRouter";
 import configureStore from "./store/conbineStore";
-import { addExpense } from "./actions/expenses";
-import { setTextFilter } from "./actions/filters";
-import getVisibleExpenses from "./selectors/expenses";
 import "react-dates/lib/css/_datepicker.css";
 
 const store = configureStore();
