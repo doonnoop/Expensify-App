@@ -52,5 +52,10 @@ module.exports = (env) => {
       contentBase: path.join(__dirname, "public"),
       historyApiFallback: true,
     },
+    performance: {
+      hints: "warning",
+      maxEntrypointSize: 5000000,
+      maxAssetSize: 3000000,
+    },
   };
 };
