@@ -6,7 +6,7 @@ const expenses = [
     description: "Gum",
     note: "",
     amount: 195,
-    createAt: moment(0),
+    createAt: moment(0).valueOf(),
   },
   {
     id: "2",
