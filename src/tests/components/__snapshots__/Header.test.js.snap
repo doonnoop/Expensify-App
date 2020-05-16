@@ -9,7 +9,7 @@ exports[`should render Header correctly 1`] = `
     <NavLink
       activeClassName="is-selected"
       exact={true}
-      to="/"
+      to="/dashboard"
     >
       Home Page
     </NavLink>
@@ -19,12 +19,11 @@ exports[`should render Header correctly 1`] = `
     >
       Create Expense
     </NavLink>
-    <NavLink
-      activeClassName="is-selected"
-      to="/help"
-    >
-      Help
-    </NavLink>
   </div>
+  <button
+    onClick={[Function]}
+  >
+    Logout
+  </button>
 </header>
 `;
